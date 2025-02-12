@@ -10,7 +10,8 @@
             }
         }
     ],
-    "env": {
-        "DJANGO_SETTINGS_MODULE": "ARDocs.settings"
+    "routes": {
+        "src": "/(.*)",
+        "dest": "ARDocs/wsgi.py"
     }
 }
