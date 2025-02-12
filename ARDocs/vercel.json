@@ -10,8 +10,10 @@
             }
         }
     ],
-    "routes": {
+    "routes": [
+        {
         "src": "/(.*)",
         "dest": "ARDocs/wsgi.py"
-    }
+        }
+    ]
 }
